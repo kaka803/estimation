@@ -199,7 +199,7 @@ const Navbar = () => {
           <Link 
             href="/" 
             onClick={closeMenus} 
-            className={`text-2xl font-semibold transition-colors ${pathname === '/' ? "text-primary italic" : "text-white hover:text-primary"}`}
+            className={`text-lg font-medium transition-colors ${pathname === '/' ? "text-primary italic" : "text-white hover:text-primary"}`}
           >
             Home
           </Link>
@@ -207,7 +207,7 @@ const Navbar = () => {
           <div className="w-full">
             <button 
               onClick={() => setIsServicesOpen(!isServicesOpen)}
-              className={`text-2xl font-semibold transition-colors flex items-center justify-between w-full group ${pathname.includes('/services') ? "text-primary italic" : "text-white hover:text-primary"}`}
+              className={`text-lg font-medium transition-colors flex items-center justify-between w-full group ${pathname.includes('/services') ? "text-primary italic" : "text-white hover:text-primary"}`}
             >
               Services
               <ChevronDown size={24} className={`transition-transform duration-300 ${isServicesOpen ? "rotate-180" : ""}`} />
@@ -239,21 +239,14 @@ const Navbar = () => {
           <Link 
             href="/about" 
             onClick={closeMenus} 
-            className={`text-2xl font-semibold transition-colors ${pathname === '/about' ? "text-primary italic" : "text-white hover:text-primary"}`}
+            className={`text-lg font-medium transition-colors ${pathname === '/about' ? "text-primary italic" : "text-white hover:text-primary"}`}
           >
             About
           </Link>
           <Link 
-            href="/#pricing" 
+            href="/contact" 
             onClick={closeMenus} 
-            className={`text-2xl font-semibold transition-colors ${pathname === '/#pricing' ? "text-primary italic" : "text-white hover:text-primary"}`}
-          >
-            Pricing
-          </Link>
-          <Link 
-            href="/#contact" 
-            onClick={closeMenus} 
-            className={`text-2xl font-semibold transition-colors ${pathname === '/#contact' ? "text-primary italic" : "text-white hover:text-primary"}`}
+            className={`text-lg font-medium transition-colors ${pathname === '/contact' ? "text-primary italic" : "text-white hover:text-primary"}`}
           >
             Contact
           </Link>
