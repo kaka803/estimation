@@ -1,24 +1,16 @@
-"use client";
-import React from "react";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-import ContactSection from "../components/ContactSection";
+import ContactClient from "./ContactClient";
 
-const ContactPage = () => {
-  return (
-    <main className="min-h-screen bg-bg-dark flex flex-col relative">
-      <Navbar />
-      
-      {/* Spacer for navbar */}
-      <div className="pt-24 md:pt-32 bg-bg-dark"></div>
-      
-      <div className="flex-grow">
-        <ContactSection />
-      </div>
-      
-      <Footer />
-    </main>
-  );
+export const metadata = {
+  title: "Contact Us | Clarity Estimates LLC",
+  description: "Get in touch with Clarity Estimates LLC for professional construction estimating services. We are here to help you with your next project.",
+  keywords: ["contact Clarity Estimates", "get estimating quote", "construction estimator contact"],
+  openGraph: {
+    title: "Contact Us | Clarity Estimates LLC",
+    description: "Get in touch with Clarity Estimates LLC for professional construction estimating services.",
+    url: "https://www.clarityestimates.com/contact",
+  },
 };
 
-export default ContactPage;
+export default function ContactPage() {
+  return <ContactClient />;
+}
