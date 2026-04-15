@@ -14,7 +14,7 @@ const Footer = () => {
     { Icon: FaFacebookF, href: "#" },
     { Icon: FaTwitter, href: "#" },
     { Icon: FaLinkedinIn, href: "#" },
-    { Icon: FaInstagram, href: "#" },
+    { Icon: FaInstagram, href: "https://www.instagram.com/clarity_estimatesllc" },
   ];
 
   return (

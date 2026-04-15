@@ -194,7 +194,7 @@ const ContactSection = () => {
                 <h3 className="text-2xl font-black text-white mb-6 font-outfit uppercase tracking-tight">Follow Our Updates</h3>
                 <div className="flex items-center gap-4">
                   {[
-                    { Icon: FaInstagram, href: "#" },
+                    { Icon: FaInstagram, href: "https://www.instagram.com/clarity_estimatesllc" },
                     { Icon: FaLinkedinIn, href: "#" },
                     { Icon: FaTwitter, href: "#" }
                   ].map(({ Icon, href }, i) => (
