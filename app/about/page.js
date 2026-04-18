@@ -1,7 +1,7 @@
 import AboutClient from "./AboutClient";
 
 export const metadata = {
-  title: "About Us | Clarity Estimates LLC",
+  title: "About Us",
   description: "Learn about Clarity Estimates LLC. We provide expert construction estimating and material takeoff services with precision, integrity, and excellence.",
   keywords: ["about Clarity Estimates", "construction consultants", "expert estimators", "precision estimating"],
   openGraph: {

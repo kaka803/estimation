@@ -13,7 +13,7 @@ export async function generateMetadata({ params }) {
   }
 
   return {
-    title: `${data.title} | Clarity Estimates LLC`,
+    title: data.title,
     description: data.description,
     openGraph: {
       title: `${data.title} | Clarity Estimates LLC`,
